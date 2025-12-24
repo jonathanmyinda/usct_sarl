@@ -1,0 +1,86 @@
+<!-- ============================================
+     COMPOSANT : DÉTAIL D'UN PRODUIT
+     Design E-commerce Premium
+     ============================================ -->
+<section class="section produit-detail ecommerce-page" id="produit-detail">
+    <div class="container">
+        <div class="ecommerce-breadcrumb">
+            <a href="#produits" class="breadcrumb-link">
+                <span>🏠</span> Accueil
+            </a>
+            <span class="breadcrumb-separator">›</span>
+            <a href="#produits" class="breadcrumb-link">Produits</a>
+            <span class="breadcrumb-separator">›</span>
+            <a href="#" class="breadcrumb-link" id="breadcrumb-category-link"></a>
+            <span class="breadcrumb-separator">›</span>
+            <span class="breadcrumb-current" id="breadcrumb-product"></span>
+        </div>
+
+        <div class="produit-detail-wrapper ecommerce-detail">
+            <div class="produit-image-section ecommerce-image-section">
+                <div class="produit-main-image-wrapper" id="produit-main-image">
+                    <div class="produit-badge">Nouveau</div>
+                    <img src="" alt="" id="produit-image" class="produit-main-image">
+                    <div class="produit-image-overlay">
+                        <button class="btn-zoom-image">
+                            <span>🔍</span> Zoom
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="produit-info-section ecommerce-info-section">
+                <div class="produit-header-info">
+                    <div class="produit-category-badge" id="produit-category"></div>
+                    <h1 class="produit-title" id="produit-title"></h1>
+                    <div class="produit-reference-info">
+                        <span class="produit-reference-label">Référence :</span>
+                        <span class="produit-reference" id="produit-reference"></span>
+                    </div>
+                </div>
+
+                <div class="produit-price-section ecommerce-price">
+                    <div class="price-main">
+                        <span class="produit-price" id="produit-price"></span>
+                        <span class="produit-currency">USD</span>
+                    </div>
+                    <div class="price-note">Prix sur demande pour les quantités</div>
+                </div>
+
+                <div class="produit-description ecommerce-description" id="produit-description"></div>
+                
+                <div class="produit-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>Livraison rapide</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>Garantie incluse</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">✓</span>
+                        <span>Support technique</span>
+                    </div>
+                </div>
+
+                <div class="produit-specifications ecommerce-specs" id="produit-specifications">
+                    <h3 class="specs-title">
+                        <span>⚙️</span> Spécifications techniques
+                    </h3>
+                    <div class="specs-grid" id="produit-specs-list"></div>
+                </div>
+
+                <div class="produit-actions ecommerce-actions">
+                    <button class="btn btn-primary btn-ecommerce btn-contact" id="btn-contact-produit">
+                        <span>📞</span> Demander un devis
+                    </button>
+                    <button class="btn btn-secondary btn-ecommerce btn-catalog" id="btn-catalog-produit">
+                        <span>📄</span> Télécharger la fiche technique
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

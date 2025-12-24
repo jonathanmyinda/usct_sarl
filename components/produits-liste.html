@@ -1,0 +1,39 @@
+<!-- ============================================
+     COMPOSANT : LISTE DES PRODUITS D'UNE CATÉGORIE
+     Design E-commerce Premium
+     ============================================ -->
+<section class="section produits-liste ecommerce-page" id="produits-liste">
+    <div class="container">
+        <div class="ecommerce-breadcrumb">
+            <a href="#produits" class="breadcrumb-link">
+                <span>🏠</span> Accueil
+            </a>
+            <span class="breadcrumb-separator">›</span>
+            <a href="#produits" class="breadcrumb-link">Produits</a>
+            <span class="breadcrumb-separator">›</span>
+            <span class="breadcrumb-current" id="breadcrumb-category"></span>
+        </div>
+
+        <div class="ecommerce-liste-header">
+            <div class="liste-title-section">
+                <h1 class="ecommerce-page-title" id="liste-category-title"></h1>
+                <p class="ecommerce-page-subtitle" id="liste-category-subtitle"></p>
+            </div>
+            <div class="ecommerce-filters">
+                <div class="filter-group">
+                    <label>Trier par :</label>
+                    <select class="filter-select" id="sort-select">
+                        <option value="name">Nom (A-Z)</option>
+                        <option value="price-asc">Prix croissant</option>
+                        <option value="price-desc">Prix décroissant</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="produits-grid ecommerce-grid" id="produits-grid">
+            <!-- Les produits seront chargés dynamiquement via JavaScript -->
+        </div>
+    </div>
+</section>
+
